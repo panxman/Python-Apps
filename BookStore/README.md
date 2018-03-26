@@ -2,6 +2,8 @@
 
 Simple GUI application using **tkinter** and **sqlite** for storing the books you have read, in a database.
 
+Run `python frontend.py`
+
 Features:
 - View all books
 - Add a book
