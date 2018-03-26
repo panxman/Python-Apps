@@ -10,3 +10,5 @@ Features:
 - Delete an entry
 - Close
 
+![screenshot](screen.PNG)
+ 
