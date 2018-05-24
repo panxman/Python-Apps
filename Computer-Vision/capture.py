@@ -8,7 +8,7 @@ while True:
     check, frame = video.read()
     # Show live images
     cv2.imshow("Capturing", frame)
-    # Refresh every .5 sec
+    # Refresh every 1 msec
     key = cv2.waitKey(1)
     # Break loop
     if key == ord('q'):
