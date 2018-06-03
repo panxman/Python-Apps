@@ -34,6 +34,8 @@ p.grid.grid_line_alpha = 0.5
 
 hours_12 = 12*60*60*1000
 
+# TODO: Add Hover tooltip to show the prices for each day
+
 p.segment(df.index, df.High, df.index, df.Low, color="black")
 
 p.rect(df.index[df.Status == "Increase"], df.Middle[df.Status == "Increase"],
