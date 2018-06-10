@@ -9,7 +9,7 @@
             <h1>Super Geocoder</h1>
             <h3>Please add a CSV file with at least one column named Address</h3>            
             <form action="{{url_for('success')}}" method="POST" enctype="multipart/form-data">
-                <input type="file" name="file" >
+                <input type="file" accept=".csv" name="file" >
                 <br>
                 <button type="submit">Submit</button>
             </form>
