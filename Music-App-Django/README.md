@@ -5,7 +5,7 @@ To run, create a virtual environment, install django and type:
 **python manage.py runserver**
 
 #### Home Page
-![screenshot](screen.PNG)
+![screenshot](screen.png)
 
 #### Utilities
 - Register User **at localhost:8000/register/**
